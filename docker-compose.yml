@@ -1,0 +1,8 @@
+version: '3.0'
+services:
+  app:
+    container_name: eurovision
+    build: .
+    restart: on-failure
+    ports:
+      - "8080:8080"
